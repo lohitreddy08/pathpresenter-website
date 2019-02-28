@@ -1116,6 +1116,13 @@
   font-size: 18px;
   text-align: center;
 }
+.feedback .owl-nav .owl-prev{
+  margin-left: 20px;
+}
+
+.feedback .owl-nav .owl-next{
+  margin-right: 20px;
+}
 
 /* categories */
 

@@ -19,6 +19,11 @@ $(document).ready(function(){
     loop:true,
     items: 4,
     margin:10,
+    nav:true,
+    navText: [
+      "<i class='icofont-simple-left'></i>",
+      "<i class='icofont-simple-right'></i>"
+    ],
     stagepadding: 50,
     autoplay:true,
     autoplayTimeout:2000,
