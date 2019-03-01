@@ -327,7 +327,8 @@
   font-weight: 700;
   font-size: 20px;
   margin-left: 50% !important;
-  margin-top: 40px;
+  margin-top: 60px !important;
+  
 }
 
 @media (min-width: 992px) {
@@ -1095,7 +1096,7 @@
 
 .feedback .team img {
   width: 80% !important;
-  height: 15rem;
+  height: 18rem;
   transform: scale(1);
   transition: transform 0.2s;
   margin-left: 25px;
@@ -1163,7 +1164,7 @@
   font-weight: 700;
   text-transform: uppercase;
   padding: 6px 0;
-  float: left;
+  text-align: center;
   display: block;
   width: 100%;
   text-decoration: none;
@@ -1218,9 +1219,8 @@
   padding-left: 2px;
 }
 
-.footer-log-left img {
-  margin-left: -80px;
-  margin-top: -50px;
+.footer .footer-img img {
+  margin-top: -100px !important;
 }
 
 @media (max-width: 992px) {
