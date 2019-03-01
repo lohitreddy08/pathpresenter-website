@@ -18,7 +18,7 @@
 .pathpresenter header {
   background: #17a58f;
   min-height: 60px;
-  height: 80px;
+  height: 60px;
   width: 100%;
 }
 
@@ -26,18 +26,21 @@
   color: #fff;
   display: flex;
   align-items: center;
-  margin-top: 0px;
+  margin-top: -10px;
   margin-left: -70px;
 }
 
-.pathpresenter .navbar-brand {
-  height: 20px;
+.pathpresenter .navbar-brand img{
+  height: 50px;
+  margin-bottom: 25px;
 }
 
 .pathpresenter .navbar-dark .navbar-nav .nav-link {
   color: rgb(255, 255, 255);
   font-size: 15px;
   font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
   text-transform: uppercase;
   padding: 11px 15px;
   letter-spacing: 1px;
@@ -57,7 +60,6 @@
   display: inline-block;
   margin-left: 10px;
   vertical-align: middle;
-
   border-top: 0em solid;
   border-right: 0em solid transparent;
   border-bottom: 0;
@@ -98,7 +100,6 @@
   white-space: nowrap;
   background-color: transparent;
   border: 0;
-
   height: 21px;
   width: 21px;
   display: inline-block;
@@ -1149,9 +1150,9 @@
   width: 100%;
   position: relative;
   float: left;
-  min-height: 80px;
+  height: 0px;
   background: #004667;
-  padding: 100px 0 70px;
+  padding: 50px 0 50px;
   letter-spacing: 1px;
 }
 
@@ -1176,8 +1177,8 @@
 
 .footer ul li a {
   color: #fff;
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 10px;
+  font-weight: 500;
   text-transform: uppercase;
   padding: 6px 0;
   text-align: center;
@@ -1236,7 +1237,10 @@
 }
 
 .footer .footer-img img {
-  margin-top: -100px !important;
+  margin-top: -35px !important;
+  
+  height: 80px;
+  padding-bottom: 30px;
 }
 
 
