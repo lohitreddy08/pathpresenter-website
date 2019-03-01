@@ -310,7 +310,7 @@
   font-size: 25px;
   margin: 0px 0 10px;
   margin-left: 40%;
-  padding-bottom: 1%;
+  padding-bottom: 3.5%;
   line-height: 40px;
   text-transform: uppercase;
   font-weight: 600;
@@ -321,6 +321,7 @@
 .slider .slide-caption h3{ 
       padding-top: 100px;
       font-size: 40px;   
+      color:white;
 }
 .slider .slide-caption img{
     position: absolute;
@@ -337,8 +338,9 @@
   font-weight: 700;
   font-size: 20px;
   margin-left: 50% !important;
-  margin-top: 60px !important;
-
+  margin-top: 100px !important;
+  text-decoration: none;
+  pointer-events: none;
 }
 
 @media (min-width: 992px) {
@@ -631,6 +633,7 @@
     padding: 8px 20px;
     border-radius: 25px;
     color: #fff;
+    text-decoration: none;
     font-weight: 700;
     font-size: 15px;
     margin-top: 10px;
@@ -1236,6 +1239,9 @@
   margin-top: -100px !important;
 }
 
+
+/*======================*/
+
 @media (max-width: 992px) {
   .footer {
     padding: 30px 0 30px;
@@ -1727,6 +1733,8 @@
   opacity: 1;
   font-size: 30px;
 }
+
+
 
 .path-presents-popup .modal-header button.close {
   opacity: 1;
@@ -3262,18 +3270,35 @@ Contact Modal Css
   border-radius: 20px;
   outline: 0;
 }
+.contact .modal-content{
+  max-height: 35rem;
+  margin: auto;
+  max-width: 60%;
+}
 
 .contact .contact-form {
   margin: 50px;
 }
 
+.contact .contact-header {
+  width: 100%;
+  background-color: #17a58f;
+  color: white;
+  height: 4.4rem;
+}
+
+.contact .contact-header h2{
+  margin-top: 15px;
+}
 .contact .contact-header img {
   width: 100%;
   height: 150px;
   opacity: 0.5;
 }
 
-
+.contact button{
+   background-color: #17a58f;
+}
 
 input:focus {
   outline: none;
