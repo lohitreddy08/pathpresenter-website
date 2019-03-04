@@ -30,7 +30,7 @@
   margin-left: -70px;
 }
 
-.pathpresenter .navbar-brand img{
+.pathpresenter .navbar-brand img {
   height: 50px;
   margin-bottom: 25px;
 }
@@ -319,15 +319,16 @@
 }
 
 
-.slider .slide-caption h3{ 
-      padding-top: 100px;
-      font-size: 40px;   
-      color:white;
+.slider .slide-caption h3 {
+  padding-top: 100px;
+  font-size: 40px;
+  color: white;
 }
-.slider .slide-caption img{
-    position: absolute;
-    width: 100%;
-    height: 40rem;
+
+.slider .slide-caption img {
+  position: absolute;
+  width: 100%;
+  height: 40rem;
 }
 
 .slide .slide__content a {
@@ -339,7 +340,7 @@
   font-weight: 700;
   font-size: 20px;
   margin-left: 50% !important;
-  margin-top: 100px !important;
+  margin-top: 100px ;
   text-decoration: none;
   pointer-events: none;
 }
@@ -574,7 +575,7 @@
 
   .home-banner h4 {
     text-align: left;
-    color: #fff;
+    color: #17a58f;
     font-size: 30px;
     margin: 0px 0 10px;
     padding: 0;
@@ -596,7 +597,7 @@
 
   .home-banner h4 {
     text-align: right;
-    color: #fff;
+    color: #17a58f;
     font-size: 20px;
     margin: 0px 0 10px;
 
@@ -619,7 +620,7 @@
 
   .home-banner h4 {
     text-align: left;
-    color: #fff;
+    color: #17a58f;
     font-size: 20px;
     margin: 0px 0 10px;
     padding: 0;
@@ -628,6 +629,26 @@
     font-weight: 600;
   }
 
+  .slider .slide-caption h3{
+    margin-top: -5%;
+    font-size: 25px;
+    margin-right: 35px;
+    margin-left: 35px;
+  }
+
+  .slide .slide__content {
+    left: 25%;
+    max-width: 80%;
+  }
+
+  .slide .slide__content h4 {
+    font-size: 15px;
+    max-width: 100%;
+    float: right;
+    margin-right: 35px; 
+    margin-left: 35px;
+    margin-top: 0px !important;
+  }
   .slide .slide__content a {
     float: left;
     background: #17a58f;
@@ -636,13 +657,22 @@
     color: #fff;
     text-decoration: none;
     font-weight: 700;
-    font-size: 15px;
-    margin-top: 10px;
+    font-size: 10px;
+    
+  }
+  .slide .slide__img {
+    width: 100%;
+    max-width: 25%;
+    margin-left:-20px;
+    overflow: visible;
   }
 
   .slide .slide__img img {
-    min-height: 245px;
-    object-fit: cover;
+    height: auto;
+    width: 100%;
+    margin-left: 50px;
+    overflow: visible;
+    margin-right: 100px;
   }
 }
 
@@ -1238,7 +1268,7 @@
 
 .footer .footer-img img {
   margin-top: -35px !important;
-  
+
   height: 80px;
   padding-bottom: 30px;
 }
@@ -3274,7 +3304,8 @@ Contact Modal Css
   border-radius: 20px;
   outline: 0;
 }
-.contact .modal-content{
+
+.contact .modal-content {
   max-height: 35rem;
   margin: auto;
   max-width: 60%;
@@ -3291,17 +3322,18 @@ Contact Modal Css
   height: 4.4rem;
 }
 
-.contact .contact-header h2{
+.contact .contact-header h2 {
   margin-top: 15px;
 }
+
 .contact .contact-header img {
   width: 100%;
   height: 150px;
   opacity: 0.5;
 }
 
-.contact button{
-   background-color: #17a58f;
+.contact button {
+  background-color: #17a58f;
 }
 
 input:focus {
