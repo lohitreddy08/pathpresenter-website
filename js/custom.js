@@ -34,7 +34,7 @@ $(document).ready(function(){
 ///////////////////
 $('.carousel1').owlCarousel({
   loop: true,
-  margin: 10,
+  margin: 0,
   nav: true,
   navText: [
     "<i class='icofont-simple-left'></i>",

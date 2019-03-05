@@ -658,6 +658,7 @@
     text-decoration: none;
     font-weight: 700;
     font-size: 10px;
+    margin-top: 0px;
     
   }
   .slide .slide__img {
@@ -829,24 +830,29 @@
     position: relative;
     float: left;
     width: 100%;
-    min-height: 420px;
-    padding-top: 80px;
+    min-height: 100px;
     margin-bottom: 0px;
-    background: #034367;
+    background: #ffffff;
+  }
+  
+  .featured .item {
+    margin-left: 50px;
   }
 
   .featured span {
     float: left;
     width: 100%;
+    margin-left: -25px;
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    
   }
 
   .featured .owl-carousel .owl-item img {
+    position: relative;
     display: block;
-    width: auto;
+    width: 100%;
   }
 
   .featured .owl-nav .owl-prev {
@@ -916,15 +922,19 @@
 
 @media (max-width: 580px) {
   .categories .owl-nav .owl-next {
-    right: 20px;
+    right: 0px;
   }
 
   .categories .owl-nav .owl-prev {
-    left: 20px;
+    left: 0px;
   }
 
   .categories h3 {
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .categories .owl-carousel .item h3 {
+    margin-top: 15px;
   }
 }
 
@@ -1150,7 +1160,7 @@
 }
 
 .feedback .team img:hover {
-  transform: scale(1.2);
+  transform: scale(1.03);
 
 }
 
@@ -1170,6 +1180,41 @@
 
 .feedback .owl-nav .owl-next {
   margin-right: 20px;
+}
+
+
+@media (max-width: 580px) {
+
+  .feedback {
+    min-height: 350px;
+  }
+
+  .feedback .team {
+    margin: 5px;
+    margin-left: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+   
+  .feedback .team img {
+    width: 100% !important;
+    height: 10rem;
+    transform: scale(1);
+    transition: transform 0.2s;
+    margin-left: 0px;
+    text-align: center;
+    justify-content: center;
+    display: block;
+  }
+
+  .feedback .team label {
+    font-size: 12px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    justify-content: center;
+  }
+
 }
 
 /* categories */
