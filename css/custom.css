@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Josefin+Sans|Crimson+Text');
 
 .pathpresenter {
   position: relative;
@@ -31,19 +31,24 @@
 }
 
 .pathpresenter .navbar-brand img {
-  height: 50px;
+  height: 40px;
+  margin-top: 10px;
   margin-bottom: 25px;
 }
 
 .pathpresenter .navbar-dark .navbar-nav .nav-link {
   color: rgb(255, 255, 255);
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 20px;
   padding-bottom: 20px;
   text-transform: uppercase;
   padding: 11px 15px;
   letter-spacing: 1px;
+}
+
+.pathpresenter .navbar-dark .navbar-nav .nav-linkfe :hover{
+  color: rgb(212, 212, 212);
 }
 
 .pathpresenter li.nav-item {
@@ -1054,6 +1059,19 @@
   padding: 35px 0 0;
 }
 
+.feedback .aboutus h3{
+    font-size: 40px;
+    color: #17303a;/*#113949*/
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+.feedback .aboutus p{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: 'Raleway';
+}
+
 /*
 .carousel {
   background: #00A58D;
@@ -1139,7 +1157,7 @@
 .feedback .doc-header h4 {
   font-size: 40px;
   margin-bottom: 30px;
-  color: rgb(206, 255, 206);
+  color: #17303a;
 }
 
 .feedback .team {
