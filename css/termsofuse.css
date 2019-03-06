@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Josefin+Sans|Crimson+Text');
 
+
+.pathpresenter{
+    overflow-y: hidden;
+}
 .main-content{
     font-size: 14px;
 }
