@@ -3343,45 +3343,9 @@ input:focus {
 /*----------------------------------------------------------------------------------
 Contact Modal Css
 ------------------------------------------------------------------------------------*/
-.contact-outer {
-  position: relative;
-  background: #17a58f;
-  border-radius: 20px;
-  max-width: 750px;
-  float: left;
-  min-height: 500px;
-  width: 100%;
-}
-
-.contact-box-main {
-  position: relative;
-  float: left;
-  width: 100%;
-}
-
-.contact-outer .modal-content {
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  width: 100%;
-  pointer-events: auto;
-  background-color: #17a58f;
-  background-clip: padding-box;
-  border: 0px solid rgb(23, 165, 143);
-  border-radius: 20px;
-  outline: 0;
-}
-
 .contact .modal-content {
-  max-height: 35rem;
-  margin: auto;
-  max-width: 60%;
-}
-
-.contact .contact-form {
-  margin: 50px;
+  border:none;
+  border-radius: 20px;
 }
 
 .contact .contact-header {
@@ -3389,10 +3353,14 @@ Contact Modal Css
   background-color: #17a58f;
   color: white;
   height: 4.4rem;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+  border:none;
 }
 
 .contact .contact-header h2 {
   margin-top: 15px;
+  font-weight: 900;
 }
 
 .contact .contact-header img {
@@ -3400,9 +3368,44 @@ Contact Modal Css
   height: 150px;
   opacity: 0.5;
 }
+.contact .contact-form {
+  margin-left:30px;
+  margin-top:20px;
+  margin-bottom: 10px;
+}
 
+.contact .form-group {
+  margin-left:30px; 
+  margin-bottom: 20px;
+}
+
+.contact .form-group input{
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+.contact .form-group input:focus, .contact .form-group input:active {
+  box-shadow: none;
+  border:none;
+  border-bottom: 2px solid #17a58f;
+  padding-top: -30px;
+}
+.contact textarea{
+
+}
+
+.contact textarea:focus{
+  box-shadow:none;
+  
+}
+.contact .g-recaptcha{
+  margin-left: 40px;
+}
 .contact button {
   background-color: #17a58f;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 input:focus {

@@ -35,7 +35,7 @@
               <li class="nav-item"><a href="#aboutus" class="nav-item  nav-link">About Us</a> </li>
               <li class="nav-item"><a href="./termsofuse.html" class="nav-item  nav-link">Terms Of Use</a> </li>
               <!--<li class="nav-item"><a href="./blog.html" class="nav-item  nav-link">Blog</a>  </li>-->
-              <li class="nav-item"> <a href="#" class="nav-item  nav-link" data-toggle="modal" data-target="#">Contact</a></li>
+              <li class="nav-item"> <a href="#" class="nav-item  nav-link" data-toggle="modal" data-target="#contact">Contact</a></li>
               <li class="nav-item"> <a href="https://public.pathpresenter.net/#/login" class="nav item  nav-link">login</a></li>
             </ul>
           </div>
@@ -388,8 +388,7 @@
   <!--Large Modal for Contact-->
   <div class="modal fade contact justify-content-center" id="contact" tabindex="-1" role="dialog" aria-labelledby="basicModal"
     aria-hidden="true">
-    <div class="modal-dialog modal-lg  ">
-      <div class="modal-dialog modal-lg ">
+      <div class="modal-dialog modal-sm modal-lg ">
         <div class="modal-content">
           <div class="row no-gutters">
             <div class="contact-header text-center">
@@ -399,25 +398,46 @@
             </div>
           </div>
           <div class="contact-form">
-            <form inline>
-              <div class="form-group row no-gutters">
-                <label class="col-5" for="exampleInputname1">Your name</label>
-                <input type="text" class="col-7 mb-2 form-control" id="exampleInputname1" aria-describedby="nameHelp"
-                  placeholder="Your name">
-              </div>
-              <div class="form-group row">
-                <label class="col-5" for="exampleInputemail">E-mail Address</label>
-                <input type="email" class="col-7 form-control" id="exampleInputemail" placeholder="email">
-              </div>
-              <div class="form-group form-check">
-                <textarea name="message" id="" cols="40" rows="5"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Send Message</button>
+            <form  action="https://formspree.io/lohithmust@gmail.com" method="POST"  inline>
+               <div class="row">
+                 <div class="form-group col-lg-5">
+                  <label for="contact-firstname">First Name</label>
+                  <input type="text" name="firstname" class="form-control" id="contact-firstname" aria-describedby="emailHelp" placeholder="Enter your first name">
+                 </div>
+                 <div class="form-group col-lg-5">
+                  <label for="contact-lastname">Last Name</label>
+                  <input type="text" name="lastname" class="form-control" id="contact-lastname" aria-describedby="emailHelp" placeholder="Enter your last name">
+                 </div>
+               </div>
+               <div class="row">
+                <div class="form-group col-lg-5">
+                  <label for="contact-email">E-mail Address</label>
+                  <input type="email" name="email" class="form-control" id="contact-email" aria-describedby="emailHelp" placeholder="Enter your email address">
+                 </div>
+                 <div class="form-group col-lg-5">
+                  <label for="contact-mobilenumber">Mobile Number</label>
+                  <input type="number" name="mobilenumber" class="form-control" id="contact-mobilenumber" aria-describedby="emailHelp" placeholder="Enter your mobile number">
+                 </div>
+               </div>
+               <div class="row">
+                <div class="form-group col-lg-10">
+                  <label for="contact-comments">Comments: </label>
+                  <textarea class="form-control" id="contact-comments" rows="5"></textarea>
+                </div>
+               </div>
+               <div class="row">
+                  <div class="col-lg-10"></div>
+                     <div class="g-recaptcha" data-sitekey="6Lf1d5cUAAAAAAmTalHvZi45bdVwWrqlIzHy-6P2"></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 text-center">
+              <button type="submit" class="btn btn-primary ">Send Message</button>
+            </div>
+          </div>
             </form>
 
           </div>
         </div>
-      </div>
     </div>
   </div>
 
@@ -430,6 +450,7 @@
   <script  as="script" src="js/jquery.min.js"></script>
   <script  as="script" src="js/bootstrap.bundle.min.js"></script>
   <!-- Custom scripts for this template -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script  as="script" src="js/navik.menu.js"></script>
   <script  as="script" src="js/slick.min.js"></script>
   <script  as="script" src="js/slick-animation.min.js"></script>
